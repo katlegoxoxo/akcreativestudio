@@ -61,7 +61,7 @@ const InteractiveLayout = ({ children }: { children?: React.ReactNode }) => {
           className="side-label text-[10px] font-black tracking-[0.5em] text-zinc-600 transition-transform duration-500 uppercase"
           style={{ transform: `translateY(${scrollPercent * 0.5}px)` }}
         >
-          AK CREATIVE STUDIO / EST. 2018
+          AK CREATIVE STUDIO / EST. 2025
         </div>
       </div>
       
@@ -207,13 +207,14 @@ const Footer = () => {
             <h3 className="text-white font-bold mb-4 uppercase tracking-wider text-sm">Headquarters</h3>
             <p className="text-zinc-400 text-sm mb-2 leading-loose">
               1420 Entertainment Plaza<br />
-              Los Angeles, CA 90028<br />
+              Johannesburg,<br />
               contact@akcreative.studio
             </p>
           </div>
         </div>
         <div className="mt-16 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center text-xs text-zinc-500 uppercase tracking-widest font-medium">
-          <p>© 2024 ak CREATIVE studio. All rights reserved.</p>
+          <p>© 2026 ak CREATIVE studio. All rights reserved.</p>
+           <p>Built by Katlego Makete.</p>
           <div className="mt-4 md:mt-0 flex space-x-8">
             <a href="#" className="hover:text-white">Privacy Policy</a>
             <a href="#" className="hover:text-white">Terms of Service</a>
